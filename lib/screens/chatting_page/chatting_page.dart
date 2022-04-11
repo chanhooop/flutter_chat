@@ -1,6 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
-
 import 'package:firebase_conection/models/chatting_model.dart';
 import 'package:firebase_conection/screens/chatting_page/local_utils/ChattingProvider.dart';
 import 'package:firebase_conection/screens/chatting_page/local_widget/chatting_item.dart';

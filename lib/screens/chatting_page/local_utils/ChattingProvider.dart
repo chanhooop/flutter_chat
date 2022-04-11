@@ -39,6 +39,7 @@ class ChattingProvider extends ChangeNotifier {
   }
 
   Future load() async {
+    print('로드들어옴');
     var now = DateTime.now().millisecondsSinceEpoch;
     final f = FirebaseFirestore.instance;
     var result = await f
